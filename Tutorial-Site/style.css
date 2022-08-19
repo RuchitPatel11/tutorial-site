@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  min-height: 120vh;
+
+}
+
+body:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url(http://logo.radixoffice.com/images/Logo_800x600.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 20%;
+  z-index: -1;
+  opacity: 0.3;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  background-color: #bebbb8;
+}
+
+header>div {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  padding: 2rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.toggle {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 2rem;
+}
+
+
+.navbar {
+  display: none;
+  flex-direction: column;
+}
+
+.toggle-btn {
+  font-size: 50px;
+  border: 2px solid black;
+  padding: 0 0.5rem;
+}
+
+.show {
+  display: flex;
+}
+
+@media screen and (min-width:768px) {
+  .toggle {
+    display: none;
+  }
+
+  header {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+  }
+}
