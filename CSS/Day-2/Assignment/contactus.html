@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Cd2a1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <title>Vite App</title>
+</head>
+
+<body>
+    <header>
+        <img src="public/RP-logo.png" alt="image" width="200px" height="100px">
+        <nav>
+
+            <button class="button button1"><a href="Assignment1.html"><span class="fas fa-home"></span>Home</a></button></li>
+            <button class="button button1"><span class="fas fa-phone"></span>Contact Us</a></button></li>
+            <button class="button button1"><a href="aboutus.html"><span class="fas fa-info"></span>About Us</a></button>
+            </li>
+        </nav>
+    </header>
+    <div class="div">
+        <aside>
+            <details class="txt-class" open>
+                <summary>Categories</summary>
+                <ul>
+                    <li>Wildlife Photography</li>
+                    <li>Landscape Photography</li>
+                    <li>Sports Activity Photography</li>
+                    <li>Wedding Photography
+                        <ul>
+                            <li>Pre Wedding Shoot</li>
+                            <li>Groom Photo Shoot</li>
+                        </ul>
+
+                    </li>
+                </ul>
+            </details>
+
+        </aside>
+        <article>
+            <div class="main">
+                <div class="content txt-class">
+                    <h1>Contact Us</h1>
+                    <form id="contact-form">
+                        <label for="text-input">First Name: </label>
+                        <input type="text" name="cus_name" id="cus_name" required /><br><br>
+
+                        <label for="text-input">Last Name: </label>
+                        <input type="text" name="cus_name" id="cus_name" required /><br><br>
+
+                        <label for="list-data">Location: </label>
+                        <input type="text" list="mydatalist" required /><br><br>
+                        <datalist id="mydatalist">
+                            <option label="Ahmedabad" value="Ahmedabad"></option>
+                            <option label="Vadodara" value="Vadodara"></option>
+                            <option label="Surat" value="Surat"></option>
+                            <option label="Pune" value="Pune"></option>
+                            <option label="Banglore" value="Banglore"></option>
+                        </datalist>
+                        <label for="email-input">Email Id: </label>
+                        <input type="email" name="cus_email" id="cus_email" required /><br><br>
+
+                        <label for="tel-input">Contact No.: </label>
+                        <input type="tel" name="cus_tel" id="cus_tel" pattern="[0-9]{10}" required /><br><br>
+
+
+                        <input type="submit" value="Submit">
+
+                    </form>
+                </div>
+                <div class="rightbar"></div>
+            </div>
+            <footer>
+                <p><strong>Follow Us On</strong></p>
+                <div>
+                    <a href="https://m.facebook.com"><span class="fa-brands fa-facebook"></span></a>
+                    <a href="https://www.instagram.com"><span class="fa-brands fa-instagram"></span></a>
+                    <a href="https://www.twitter.com"><span class="fa-brands fa-twitter"></span></a>
+                </div>
+                <p>Copyright © 2022</p>
+            </footer>
+        </article>
+    </div>
+  <footer class="aaa-footer">
+    Copyright © 2022 @ Training-Site
+
+  </footer>
+</body>
+
+</html>
