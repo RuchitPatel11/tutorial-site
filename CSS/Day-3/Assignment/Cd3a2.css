@@ -69,11 +69,7 @@
   .col-12 {
     width: 100%;
   }
-  
-  nav {
-    /* margin-bottom: 2.5rem; */
-  }
-  
+   
   .nav-item>li {
     display: inline;
     margin-bottom: 5px;
