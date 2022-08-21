@@ -71,7 +71,7 @@
   }
   
   nav {
-    margin-bottom: 2.5rem;
+    /* margin-bottom: 2.5rem; */
   }
   
   .nav-item>li {
@@ -96,7 +96,7 @@
     float: right;
   }
   
-  a {
+  .nav-link, .top-nav-item a {
     text-decoration: none;
     color: gray;
     padding: 0.7rem;
@@ -145,6 +145,7 @@
   
   .dotted-bottom {
     border-bottom: 1px dotted white;
+    color: white;
   }
   
   .client {

@@ -5,9 +5,12 @@
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
+  display: flex;
+  flex-direction: column;
   }
  .aaa-header{
   display: flex;
+  box-shadow: 10px 0 20px #000000;
   flex-direction: column;
   /* justify-content: space-between; */
   background-color: #bebbb8;
@@ -28,6 +31,10 @@
   align-items: center;
   flex-direction: column;
 
+}
+.aaa-navbar > a:hover{
+  background-color: #ffffff;
+  color: black;
 }
 
 .aaa-toggle {
@@ -54,8 +61,11 @@
 }
 .aaa-footer{
   text-align: center;
+  background-color: #bebbb8;
+  box-shadow: 0 5px 20px #000000;
+  padding: 0.5rem 0;
   width: 100%;
-   bottom: 0;
+  bottom: 0;
   position: fixed;
 }
 

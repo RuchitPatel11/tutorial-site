@@ -5,7 +5,7 @@ header {
     background-color: antiquewhite;
   }
   
-  nav {
+  .ass-nav {
     padding-right: 1rem;
   }
   
@@ -85,7 +85,7 @@ header {
   
     }
   
-    nav {
+    .ass-nav {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
@@ -107,7 +107,11 @@ header {
       display: block;
     }
   
-    nav {
+    .ass-nav {
       display: none;
     }
+  }
+
+  .visible{
+    display: flex;
   }
