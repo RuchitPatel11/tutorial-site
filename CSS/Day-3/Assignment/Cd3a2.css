@@ -210,7 +210,10 @@ color:white;
     padding: 1rem 0 2rem;
     font-size: larger;
   }
-  .top-footer p,li {
+  .top-footer p {
+    color: white;
+  }
+  .footer-li{
     color: white;
   }
   .top-footer h3{
