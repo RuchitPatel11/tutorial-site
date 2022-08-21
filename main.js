@@ -1,7 +1,7 @@
-const toggle = document.querySelector(".toggle");
+const toggle = document.querySelector(".aaa-toggle");
 toggle.addEventListener("click", () => {
-  const nav = document.querySelector(".navbar");
-  nav.classList.toggle("show");
+  const nav = document.querySelector(".aaa-navbar");
+  nav.classList.toggle("aaa-show");
 });
 
 function myFunctionBlock(id) {

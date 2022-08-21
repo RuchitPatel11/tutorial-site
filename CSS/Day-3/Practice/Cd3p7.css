@@ -1,0 +1,53 @@
+h1 {
+    text-align: center;
+    background-color: #ecb6b6;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  .main-row {
+    display: flex;
+    flex-wrap: wrap;
+  
+    width: 100%;
+  }
+  
+  .column {
+    flex: 16.66%;
+    max-width: 16.66%;
+  
+  }
+  
+  .column img {
+    margin-top: 8px;
+  }
+  
+  @media (max-width: 1200px) {
+    .column {
+      flex: 25%;
+      max-width: 25%;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .column {
+      flex: 33%;
+      max-width: 33%;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }

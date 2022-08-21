@@ -1,0 +1,34 @@
+.content{
+    width: 70%;
+    height: 100%;
+    font-size: 50px;
+    border: 2px solid #ff0000;
+    border-radius: 5%;
+    padding: 1rem;
+    background-color: #b964e0;
+    animation-name: ani-ride;
+    animation-duration: 5s;
+    animation-iteration-count: 6;
+  }
+  @keyframes ani-ride{
+    0% {background-color:#b964e0;}
+    25% {background-color: rgb(240, 82, 42);}
+    50% {background-color:#6ee451;}
+    100% {background-color:#0d8f94;}
+  }
+  
+  @media (max-width:1000px){
+    .content{
+      font-size: 40px;
+    }
+  }
+  @media (max-width:750px){
+    .content{
+      font-size: 30px;
+    }
+  }
+  @media (max-width:500px){
+    .content{
+      font-size: 20px;
+    }
+  }

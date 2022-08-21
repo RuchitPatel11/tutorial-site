@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+  }
+  .desktop{
+    background-color: #b584e6;
+    border: 2px dotted black;
+  }
+  .tablet{
+    background-color: #b4e04d ;
+    border: 2px dotted black;
+  }
+  .onall{
+    background-color: #ff98a9;
+    border: 2px dotted black;
+  }
+  
+  @media (max-width:1000px){
+    .desktop{
+      display: none;
+    }
+  }
+  @media (max-width:700px){
+    .tablet{
+      display: none;
+    }
+  }

@@ -1,0 +1,290 @@
+.logo {
+    float: left;
+    width: 20%;
+    height: auto;
+    font-size: 3em;
+    text-transform: capitalize;
+    font-weight: 1000;
+    color: #76C250;
+  }
+  
+  /* * {
+    color: gray;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+  } */
+  
+  [class*="col-"] {
+    float: left;
+  }
+  
+  .row {
+    padding: 1rem;
+  }
+  
+  .col-1 {
+    width: 8.33%;
+  }
+  
+  .col-2 {
+    width: 16.66%;
+  }
+  
+  .col-3 {
+    width: 25%;
+  }
+  
+  .col-4 {
+    width: 33.33%;
+  }
+  
+  .col-5 {
+    width: 41.66%;
+  }
+  
+  .col-6 {
+    width: 50%;
+  }
+  
+  .col-7 {
+    width: 58.33%;
+  }
+  
+  .col-8 {
+    width: 66.66%;
+  }
+  
+  .col-9 {
+    width: 75%;
+  }
+  
+  .col-10 {
+    width: 83.33%;
+  }
+  
+  .col-11 {
+    width: 91.66%;
+  }
+  
+  .col-12 {
+    width: 100%;
+  }
+  
+  nav {
+    margin-bottom: 2.5rem;
+  }
+  
+  .nav-item>li {
+    display: inline;
+    margin-bottom: 5px;
+    padding: 1rem;
+    font-size: larger;
+  }
+  
+  .top-nav-item>li {
+    display: inline;
+    margin-bottom: 5px;
+    padding: 1rem;
+    font-size: larger;
+  }
+  
+  .top-nav-item {
+    float: right;
+  }
+  
+  .nav-item {
+    float: right;
+  }
+  
+  a {
+    text-decoration: none;
+    color: gray;
+    padding: 0.7rem;
+  }
+  
+  .nav-link:hover {
+    background: #F3F3F3;
+    box-shadow: 1px 1px 1px 0px black;
+    border-bottom: 2px solid #76C250;
+  }
+  
+  
+  button {
+    background: #72C02C;
+    color: #fff;
+    margin: 3rem 4rem 2rem 10rem;
+    padding: 15px 25px 15px 20px;
+    border: 0px solid transparent;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  article {
+    padding: 2rem;
+  }
+  
+  .row-4-content {
+    margin: 1rem;
+  }
+  
+  .welcome-content>p {
+    margin-top: 2rem;
+  
+  }
+  
+  .clients-logo {
+    margin-top: 2rem;
+  }
+  
+  .clients-logo>img {
+    width: 70%;
+    height: auto;
+    filter: grayscale(100%);
+  }
+  
+  .dotted-bottom {
+    border-bottom: 1px dotted white;
+  }
+  
+  .client {
+    margin: 2rem 0;
+  }
+  
+  .visible {
+    display: flex !important;
+  }
+  
+  .hidden {
+    display: none !important;
+  }
+  
+  .fig-cap {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.541);
+    color: white;
+    width: 80%;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  .address>p {
+    line-height: 2px;
+    margin-left: 10px;
+  }
+  
+  span {
+    padding-left: 1rem;
+  }
+  
+  footer>div {
+    background-color: black;
+    padding: 1rem 0;
+  }
+    
+  footer p {
+color:white;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .social-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 2rem;
+  }
+  
+  .toggle {
+    display: none;
+    padding-bottom: 1rem;
+  }
+  
+  .top-footer {
+    background-color: #272727;
+    padding: 1rem 0 2rem;
+    font-size: larger;
+  }
+  .top-footer p,li {
+    color: white;
+  }
+  .top-footer h3{
+    color:green;
+  }
+  @media (max-width:1280px) {
+  
+    .col-3 {
+      width: 50%;
+    }
+  
+  }
+  
+  @media (max-width: 950px) {
+    header {
+      flex-direction: column;
+      align-items: center;
+  
+    }
+  
+    .nav-item {
+      float: none;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding-right: 0;
+    }
+  
+    .top-nav-item {
+      float: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .logo {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+  
+    nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 0;
+    }
+  
+    .toggle {
+      display: block;
+      transform: scale(1.5);
+    }
+  }
+  
+  @media (max-width:1000px) {
+    .col-2 {
+      width: 33.33%;
+    }
+  
+    .col-3 {
+      width: 100%;
+    }
+  
+    .col-8 {
+      width: 100%;
+    }
+  
+    .download-btn {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width:750px) {
+    .col-4 {
+      width: 100%;
+    }
+  }

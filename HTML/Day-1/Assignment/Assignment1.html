@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" href="../../../main.css">
+    <link rel="stylesheet" href="../../sidebar.css">
+    <script src="../../../main.js" defer></script>
+    <title>Tutorial-Site</title>
+</head>
+
+<body class="aaa-body">
+    <header class="aaa-header">
+      <div>
+        <div class="aaa-logo">
+          <img src="http://logo.radixoffice.com/images/Logo_200x150(transparent).png" alt="logo" />
+        </div>
+  
+  
+        <div class="aaa-toggle">
+          <span class="aaa-toggle-btn">≡</span>
+        </div>
+      </div>
+      <nav class="aaa-nav">
+        <div class="aaa-navbar">
+          <a class="aaa-a" href="../../../index.html">HOME</a>
+          <a class="aaa-a" href="../../../HTML/index.html">HTML</a>
+          <a class="aaa-a" href="../../../CSS/index.html">CSS</a>
+        </div>
+      </nav>
+    </header>
+
+    <div class="bbb-content-1">
+        <div class="bbb-leftbar">
+            <ul class="bbb-ul">
+                <li class="level-1" style="padding-bottom: 1rem;" onclick="myFunctionBlock('.d1');">Day-1</li>
+                <ul  class="bbb-ul">
+                    <li class="d1 level-2" onclick="myFunctionBlock('.d1as')">Assignment
+                        <ul class="bbb-ul">
+                            <li class="d1as level-3"><a href="Assignment1.html">Assignment 1</a></li>
+                        </ul>
+                    </li>
+                    <li class="d1 level-2" onclick="myFunctionBlock('.d1p')">Practice
+                        <ul  class="bbb-ul">
+                            <li class="d1p level-3"><a href="../Practice/Practice1.html">Practice 1</a></li>
+                            <li class="d1p level-3"><a href="../Practice/Practice2.html">Practice 2</a></li>
+                            
+                        </ul>
+                    </li>
+
+
+                </ul>
+            </ul>
+            <ul  class="bbb-ul">
+                <li class="level-1" style="padding-bottom: 1rem;" onclick="myFunctionBlock('.d2');">Day-2</li>
+                <ul  class="bbb-ul">
+                    <li class="d2 level-2" onclick="myFunctionBlock('.d2as')">Assignment
+                        <ul  class="bbb-ul">
+                            <li class="d2as level-3"><a href="../../Day-2/Assignment/Assignment1.html">Assignment 1</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </ul>
+        </div>
+        <div class=" midbar">
+            <h1 style="text-align:center">Employee-Form</h1>
+    <form id="employee-form">
+        <label for="text-input">Name: </label>
+        <input type="text" name="emp_name" id="emp_name" required /><br><br>
+
+        <label for="number-input">Age: </label>
+        <input type="number" name="emp_age" id="emp_age" required /><br><br>
+
+        <label for="radio-input">Gender: </label>
+        <input type="radio" name="gender" id="Male" required />
+        <label for="radio-input">Male</label>
+        <input type="radio" name="gender" id="FeMale" required />
+        <label for="radio-input">Female</label><br><br>
+
+        <label for="text-input">Designation: </label>
+        <input type="text" name="emp_designation" id="emp_designation" required /><br><br>
+
+        <label for="number-input">Salary: </label>
+        <input type="number" name="emp_salary" id="emp_salary" required /><br><br>
+
+
+
+        <label for="list-data">Location: </label>
+        <input type="text" list="mydatalist" required /><br><br>
+        <datalist id="mydatalist">
+            <option label="Ahmedabad" value="Ahmedabad"></option>
+            <option label="Vadodara" value="Vadodara"></option>
+            <option label="Surat" value="Surat"></option>
+            <option label="Pune" value="Pune"></option>
+            <option label="Banglore" value="Banglore"></option>
+        </datalist>
+
+        <label for="email-input">Email Id: </label>
+        <input type="email" name="emp_email" id="emp_email" required /><br><br>
+
+        <label for="date-input">Date of Joining: </label>
+        <input type="date" name="emp_doj" id="emp_doj" required /><br><br>
+
+        <label for="tel-input">Contact No.: </label>
+        <input type="tel" name="emp_tel" id="emp_tel" pattern="[0-9]{10}" required /><br><br>
+
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+            </div>
+    </div>
+
+</body>
+
+</html>

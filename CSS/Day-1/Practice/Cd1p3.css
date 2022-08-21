@@ -1,0 +1,8 @@
+/* list display */
+.Hori-li>li {
+    display:inline;
+  }
+  /* li-before */
+ .Hori-li>li:before{
+    content:"\ffed"
+  }

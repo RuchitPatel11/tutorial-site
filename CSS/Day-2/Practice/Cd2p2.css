@@ -1,0 +1,51 @@
+h1{
+    text-align: center;
+}
+
+.static {
+    position: static;
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+    border: 2px dashed blue;
+    text-align: center;
+
+}
+
+.relative {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    left: 45px;
+    top: 100px;
+    border: 2px dashed blue;
+    text-align: center;
+
+}
+
+.fixed {
+    position: fixed;
+    height: 100px;
+    width: 100px;
+    background-color: lightpink;
+    right: 0;
+    border: 2px dashed blue;
+    text-align: center;
+}
+
+.absolute {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 100px;
+    bottom: 40px;
+    background-color: lightgreen;
+    border: 2px dashed blue;
+    text-align: center;
+
+}
+
+.main-div {
+    position: absolute;
+}
