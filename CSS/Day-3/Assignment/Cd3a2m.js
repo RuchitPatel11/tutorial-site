@@ -1,5 +1,6 @@
-const toggle = document.querySelector(".toggle")
-toggle.addEventListener('click', () => {
+const asstoggle = document.querySelector(".toggle")
+console.log("hello")
+asstoggle.addEventListener('click', () => {
   const nav = document.querySelector(".nav-item");
   if (!nav.classList.contains("visible")) {
     nav.classList.remove("hidden");

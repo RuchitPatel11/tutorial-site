@@ -29,9 +29,11 @@ a {
   /* border-bottom: 1px solid black; */
   top: 0;
   position: sticky;
+  z-index: 2;
 }
 
 .aaa-header>div {
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
