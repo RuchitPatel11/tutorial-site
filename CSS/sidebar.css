@@ -89,7 +89,7 @@
 }
 
 .aaa-footer {
-    position: sticky;
+    position: fixed;
 }
 
 @media screen and (min-width:768px) {
