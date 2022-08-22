@@ -1,6 +1,7 @@
-.aaa-body{
+.aaa-body {
     background: none;
 }
+
 .show {
     display: flex;
 }
@@ -17,14 +18,20 @@
 .bbb-leftbar {
     border: 1px solid black;
     flex: 0.25;
-    background-color: #f1f1f1;
+    background-color: #AEA9A2;
     overflow: auto;
 }
 
 .midbar {
     border: 1px solid black;
     flex: 1;
+    background-image: url('../public/HTML.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    opacity: 0.6;
 }
+
 .bbb-ul {
     list-style-type: none;
     margin: 0;
@@ -47,14 +54,14 @@
 /* li a:hover {
     background-color: #555;
     color: white;
-} */ 
+} */
 
 .d1,
 .d1as,
 
-.d1p,.d2,
-.d2as
- {
+.d1p,
+.d2,
+.d2as {
     display: none;
 }
 

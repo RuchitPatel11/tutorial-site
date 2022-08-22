@@ -1,14 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+html {
+  font-family: 'Heebo', sans-serif;
+}
+
 .aaa-body {
   margin: 0;
   min-height: 100vh;
-  background-image: url(public/radix.jpg);
+  background-image: url('http://logo.radixoffice.com/images/Logo_500x375(transparent).png');
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
   display: flex;
   flex-direction: column;
-  }
- .aaa-header{
+}
+
+.aaa-header {
   display: flex;
   box-shadow: 10px 0 20px #000000;
   flex-direction: column;
@@ -32,7 +39,9 @@
   flex-direction: column;
 
 }
-.aaa-navbar > a:hover{
+
+.aaa-navbar>a:hover,
+.aaa-navbar>a.active {
   background-color: #ffffff;
   color: black;
 }
@@ -59,7 +68,8 @@
 .aaa-show {
   display: flex;
 }
-.aaa-footer{
+
+.aaa-footer {
   text-align: center;
   background-color: #bebbb8;
   box-shadow: 0 5px 20px #000000;
@@ -73,9 +83,10 @@
   .aaa-toggle {
     display: none;
   }
+
   .aaa-nav {
     display: flex;
-}
+  }
 
   .aaa-header {
     flex-direction: row;
