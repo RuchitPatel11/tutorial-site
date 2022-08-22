@@ -1,11 +1,15 @@
+.midbar {
+  background: none;
+}
+
 .content {
-    border: 2px solid blue;
-    padding: 1rem;
-    text-align: center;
+  border: 2px solid blue;
+  padding: 1rem;
+  text-align: center;
+}
+
+@media (max-width:500px) {
+  .content {
+    border: 2px solid red;
   }
-  
-  @media (max-width:500px) {
-    .content {
-      border: 2px solid red;
-    }
-  }
+}
