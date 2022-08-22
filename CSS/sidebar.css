@@ -9,6 +9,7 @@
 .bbb-content-1 {
     flex: 1;
     display: flex;
+    flex-direction: column;
     height: 100%;
     width: 100%;
     justify-content: stretch;
@@ -16,8 +17,6 @@
 }
 
 .bbb-leftbar {
-
-    flex: 0.25;
     background-color: #4e5166;
     overflow: auto;
     color: white;
@@ -36,7 +35,7 @@
 .bbb-ul {
     list-style-type: none;
     margin: 0;
-    padding-left: 20px;
+    padding-left: 6px;
     width: 200px;
     cursor: pointer;
 }
@@ -91,4 +90,10 @@
 
 .aaa-footer {
     position: sticky;
+}
+
+@media screen and (min-width:768px) {
+    .bbb-content-1 {
+        flex-direction: row;
+    }
 }
