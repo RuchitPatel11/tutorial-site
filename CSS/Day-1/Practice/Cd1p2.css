@@ -1,4 +1,8 @@
+.midbar {
+  background: none;
+}
+
 /* paragraph-styled */
-p{
-    border: 5px solid black;
-  }
+p {
+  border: 5px solid black;
+}

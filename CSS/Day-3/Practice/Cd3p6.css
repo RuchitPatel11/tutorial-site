@@ -1,23 +1,27 @@
+.midbar {
+  background: none;
+}
+
 h1 {
-    text-align: center;
-    background-color: #ecb6b6;
-  }
-  
-  img {
-    width: 100%;
-  }
-  
-  .main-row {
-    display: flex;
-    width: 100%;
-  }
-  
-  .column {
-    flex: 16.66%;
-    max-width: 16.66%;
-  
-  }
-  
-  .column img {
-    margin-top: 8px;
-  }
+  text-align: center;
+  background-color: #ecb6b6;
+}
+
+img {
+  width: 100%;
+}
+
+.main-row {
+  display: flex;
+  width: 100%;
+}
+
+.column {
+  flex: 16.66%;
+  max-width: 16.66%;
+
+}
+
+.column img {
+  margin-top: 8px;
+}

@@ -1,130 +1,134 @@
+.midbar {
+  background: none;
+}
+
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  h1 {
-    text-align: center;
-    margin-top: 10px;
-  }
-  
-  
-  nav {
-    padding-right: 1rem;
-  }
-  
-  header,
-  footer {
-  
-    background-color: antiquewhite;
-  }
-  
-  .div {
-    flex: 5;
-    display: flex;
-  }
-  
-  aside,
-  article {
-    border: 1px solid black;
-  }
-  
-  aside {
-    flex: 0.8;
-    background-color: lightgray;
-  }
-  
-  article {
-    flex: 4;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  body {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    margin: 0;
-  }
-  
-  html {
-    height: 100%;
-  
-  }
-  
-  footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex: 0.25;
-  }
-  
-  span {
-    padding-right: 1rem;
-    padding-left: 1rem;
-  }
-  
-  p {
-    font-size: 20px;
-  }
-  
-  .main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-  
-  }
-  
-  .content {
-    /* border: 1px solid black; */
-    height: 100%;
-    flex: 5;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    overflow: auto;
-    max-height: 70vh;
-  }
-  
-  .rightbar {
-    border: 1px solid black;
-    flex: 1;
-    height: 100%;
-  }
-  
-  .button {
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    /* text-decoration: none; */
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-  
-  .button1 {
-    background-color: antiquewhite;
-    color: black;
-    text-decoration: none;
-  
-  }
-  
-  .button1:hover {
-    background-color: rosybrown;
-    color: white;
-  }
-  
-  .txt-class {
-    margin-top: 5px;
-    margin-left: 5px;
-  }
-  
-  a {
-    text-decoration: none;
-    text-align: center;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+nav {
+  padding-right: 1rem;
+}
+
+header,
+footer {
+
+  background-color: antiquewhite;
+}
+
+.div {
+  flex: 5;
+  display: flex;
+}
+
+aside,
+article {
+  border: 1px solid black;
+}
+
+aside {
+  flex: 0.8;
+  background-color: lightgray;
+}
+
+article {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 0.25;
+}
+
+span {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+p {
+  font-size: 20px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+}
+
+.content {
+  /* border: 1px solid black; */
+  height: 100%;
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow: auto;
+  max-height: 70vh;
+}
+
+.rightbar {
+  border: 1px solid black;
+  flex: 1;
+  height: 100%;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  /* text-decoration: none; */
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: antiquewhite;
+  color: black;
+  text-decoration: none;
+
+}
+
+.button1:hover {
+  background-color: rosybrown;
+  color: white;
+}
+
+.txt-class {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+}

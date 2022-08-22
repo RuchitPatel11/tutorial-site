@@ -1,31 +1,35 @@
+.midbar {
+  background: none;
+}
+
 h1 {
-    text-align: center;
-  }
-  
-  .main-div {
-    border: 1px solid black;
-    padding: 1rem;
-    margin-right: 10%;
-    background-color: powderblue;
-  }
-  
-  
-  .main-div>div {
-    border: 1px solid black;
-    display: inline-block;
-    width: 300px;
-    height: 300px;
-    overflow: scroll;
-  }
-  
-  .first-div {
-    background-color: aquamarine;
-  }
-  
-  .second-div {
-    background-color: rgb(238, 234, 173);
-  }
-  
-  .third-div {
-    background-color: azure;
-  }
+  text-align: center;
+}
+
+.main-div {
+  border: 1px solid black;
+  padding: 1rem;
+  margin-right: 10%;
+  background-color: powderblue;
+}
+
+
+.main-div>div {
+  border: 1px solid black;
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  overflow: scroll;
+}
+
+.first-div {
+  background-color: aquamarine;
+}
+
+.second-div {
+  background-color: rgb(238, 234, 173);
+}
+
+.third-div {
+  background-color: azure;
+}

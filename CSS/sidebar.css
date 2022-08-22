@@ -18,7 +18,7 @@
 .bbb-leftbar {
     border: 1px solid black;
     flex: 0.25;
-    background-color: #f1f1f1;
+    background-color: #AEA9A2;
     overflow: auto;
 }
 
@@ -29,7 +29,6 @@
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
-    opacity: 0.6;
 
 }
 
@@ -38,6 +37,7 @@
     margin: 0;
     padding-left: 20px;
     width: 200px;
+    cursor: pointer;
 }
 
 .leftbar>.bbb-ul {
