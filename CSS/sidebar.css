@@ -16,14 +16,15 @@
 }
 
 .bbb-leftbar {
-    border: 1px solid black;
+
     flex: 0.25;
-    background-color: #AEA9A2;
+    background-color: #4e5166;
     overflow: auto;
+    color: white;
 }
 
 .midbar {
-    border: 1px solid black;
+
     flex: 1;
     background-image: url('../public/CSS.png');
     background-repeat: no-repeat;
@@ -86,4 +87,8 @@
 .level-2:last-child,
 .level-3:last-child {
     padding-bottom: 0;
+}
+
+.aaa-footer {
+    position: sticky;
 }

@@ -17,10 +17,14 @@ html {
 
 .aaa-header {
   display: flex;
-  box-shadow: 10px 0 20px #000000;
+  box-shadow: 0 0 10px #000000;
   flex-direction: column;
   /* justify-content: space-between; */
-  background-color: #bebbb8;
+  /* background-color: #4e5166; */
+  background-color: #93B7BE;
+  /* border-bottom: 1px solid black; */
+  top: 0;
+  position: sticky;
 }
 
 .aaa-header>div {
@@ -30,6 +34,7 @@ html {
 
 .aaa-a {
   text-decoration: none;
+  color: #000000;
   padding: 2rem;
 }
 
@@ -72,7 +77,7 @@ html {
 .aaa-footer {
   text-align: center;
   background-color: #bebbb8;
-  box-shadow: 0 5px 20px #000000;
+  box-shadow: 0 0 10px #000000;
   padding: 0.5rem 0;
   width: 100%;
   bottom: 0;
